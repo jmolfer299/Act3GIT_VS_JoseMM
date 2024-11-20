@@ -1,0 +1,162 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    color: green;
+}
+
+p {
+    font-size: 15px;
+}
+
+section {
+    background-color: green;
+    display: flex;
+    height: 10vh;
+}
+
+h2 {
+    font-size: 20px;
+    color: aliceblue;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+footer
+{
+    background-color: black;
+    display: flex;
+    height: 10vh;
+}
+
+h4
+{
+    font-size: 20px;
+    color: aliceblue;
+    margin: auto;
+}
+
+td,
+th,
+tr {
+    padding: 0px;
+    /*Añade un espacio en las celdas*/
+}
+main
+{
+    height: 70.6vh;
+}
+table {
+    margin: auto;
+    /* Margen automático*/
+    width: 40vw;
+    height: 40vh;
+    text-align: center;
+    /* Alinea el contenido de las celdas al centro */
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.titulo {
+    border: 5px #287e1d solid;
+    /* añade el borde */
+    font-size: 25px;
+    /* Tamaño de la fuente */
+    text-transform: uppercase;
+    /* Letras Mayúsculas */
+    background-color: #287e1d;
+    /*Color de fondo de esa clase*/
+}
+
+.dia {
+    border: 5px #409532 solid;
+    background-color: #409532;
+    text-transform: capitalize;
+    /* Primera letra en mayusculas */
+}
+
+.programacion {
+    border: 5px #58ab48 solid;
+    background-color: #58ab48;
+    text-transform: capitalize;
+}
+
+.base {
+    border: 5px #6fc25d solid;
+    background-color: #6fc25d;
+    text-transform: capitalize;
+}
+
+.fol {
+    border: 5px #87d973 solid;
+    background-color: #87d973;
+    text-transform: capitalize;
+}
+
+.recreo {
+    border: 5px #287e1d solid;
+    background-color: #409532;
+    text-transform: uppercase;
+    letter-spacing: 50px;
+    /* Separación entre letras*/
+}
+
+.sistemas {
+    border: 5px #58ab48 solid;
+    background-color: #58ab48;
+    text-transform: capitalize;
+}
+
+.entornos {
+    border: 5px #6fc25d solid;
+    background-color: #6fc25d;
+    text-transform: capitalize;
+}
+
+.lenguaje {
+    border: 5px #87d973 solid;
+    background-color: #87d973;
+    text-transform: capitalize;
+}
+
+.sostenibilidad {
+    border: 5px #287e1d solid;
+    background-color: #287e1d;
+    text-transform: capitalize;
+}
+
+.digitalizacion {
+    border: 5px #409532 solid;
+    background-color: #409532;
+    text-transform: capitalize;
+}
+
+.horas {
+    border: 5px #58ab48 solid;
+    background-color: #58ab48;
+    text-transform: capitalize;
+}
+
+.vacio {
+    border: 5px #6fc25d solid;
+    background-color: #6fc25d;
+    text-transform: capitalize;
+}
+
+.hora {
+    border: 5px #87d973 solid;
+    background-color: #87d973;
+}
+main
+{
+    height: 70.5vh;
+}

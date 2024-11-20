@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Se ajusta al ancho de la página -->
+    <title>Horario</title>
+    <!-- Enlace a una hoja de estilos externa llamada styles.css -->
+    <link rel="stylesheet" href="./styles/horario.css">
+</head>
+<body>
+    <header>
+        <h1>Entornos de desarrollo</h1>
+        <p>Actividad 2 GIT y GitHub</p>
+    </header>
+    <section>
+        <a href="index.html">
+            <h2>Inicio</h2>
+        </a>
+        <h2>Horario</h2>
+        <a href="sobremi.html">
+            <h2>Sobre mi</h2>
+        </a>
+    </section>
+    <main>
+        <table>
+            <!-- Título de la tabla: "Horario", que abarca 6 columnas -->
+            <tr>
+                <th colspan="6" class="titulo">Horario</th>
+            </tr>
+            <!-- Fila de encabezado con los días de la semana y horas -->
+            <tr>
+                <th class="horas">Horas</th>
+                <th class="dia">Lunes</th>
+                <th class="dia">Martes</th>
+                <th class="dia">Miércoles</th>
+                <th class="dia">Jueves</th>
+                <th class="dia">Viernes</th>
+            </tr>
+            <!-- Primera fila con horas y materias -->
+            <tr>
+                <th class="hora">08:15-09:15</th>
+                <!-- "Programación" ocupa dos filas en la columna de Lunes -->
+                <th rowspan="2" class="programacion">Programación</th>
+                <!-- Materia del Martes -->
+                <th class="fol">FOL</th>
+                <!-- "Entornos de desarrollo" ocupa dos filas en la columna de Miércoles -->
+                <th rowspan="2" class="entornos">Entornos de desarrollo</th>
+                <!-- "Programación" ocupa dos filas en la columna de Jueves -->
+                <th rowspan="2" class="programacion">Programación</th>
+                <!-- "Base de Datos" ocupa dos filas en la columna de Viernes -->
+                <th rowspan="2" class="base">Base de Datos</th>
+            </tr>
+            <tr>
+                <th class="hora">09:15-10:15</th>
+                <th class="entornos">Entornos de desarrollo</th>
+            </tr>
+            <tr>
+                <th class="hora">10:15-11:15</th>
+                <th class="base">Base de Datos</th>
+                <th class="lenguaje">Lenguajes de Marcas</th>
+                <th class="base">Base de Datos</th>
+                <th class="fol">FOL</th>
+                <th class="sostenibilidad">Sostenibilidad Aplicada a los Sistemas Productivos</th>
+            </tr>
+            <tr>
+                <th class="hora">11:15-11:45</th>
+                <!-- Recreo que ocupa todas las columnas de los días -->
+                <th colspan="5" class="recreo">Recreo</th>
+            </tr>
+            <tr>
+                <th class="hora">11:45-12:45</th>
+                <th class="base">Base de Datos</th>
+                <th rowspan="3" class="programacion">Programación</th>
+                <th class="base">Base de Datos</th>
+                <th rowspan="2" class="lenguaje">Lenguajes de Marcas</th>
+                <th class="fol">FOL</th>
+            </tr>
+            <tr>
+                <th class="hora">12:45-13:45</th>
+                <th rowspan="2" class="sistemas">Sistemas Informáticos</th>
+                <th rowspan="2" class="sistemas">Sistemas Informáticos</th>
+                <th class="sistemas">Sistemas Informáticos</th>
+            </tr>
+            <tr>
+                <th class="hora">13:45-14:45</th>
+                <th class="digitalizacion">Digitalización Aplicada</th>
+                <th class="programacion">Programación</th>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <h4>Desarrollado por IES Pablo Picasso</h4>
+    </footer>
+</body>
