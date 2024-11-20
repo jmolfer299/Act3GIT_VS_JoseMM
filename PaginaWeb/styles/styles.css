@@ -1,0 +1,54 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    color: green;
+}
+
+p {
+    font-size: 15px;
+}
+
+section {
+    background-color: green;
+    display: flex;
+    height: 10vh;
+}
+
+h2 {
+    font-size: 20px;
+    color: aliceblue;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+footer
+{
+    background-color: black;
+    display: flex;
+    height: 10vh;
+}
+
+h4
+{
+    font-size: 20px;
+    color: aliceblue;
+    margin: auto;
+}
+main
+{
+    height: 72vh;
+}
+img
+{
+    height: 30vh;
+    width: 30vw;
+}
